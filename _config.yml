@@ -37,15 +37,16 @@ about_content: | # this will include new lines to allow paragraphs
   Microsoft Certified Solution Developer with strong technical knowledge of desktop, mobile, and web applications, and the use of Microsoft technologies. Applies attention to detail when creating commercial software products, and solutions for clients in oil and gas industry. Skilled in the application of scrum methodologies to manage and lead small development teams. Committed to communicating with clients to capture requirements, architect and test suitable solutions, provide technical support, and to achieve successful delivery and handover.
 
 content:
+  - title: Core Skills
+    layout: text
+    description: C#, ASP/ASP.NET, WPF (XAML/MVVM), WCF, VB6, Microchip Embedded C, HTML, JavaScript, CSS, SQL Server, SQLite, LiteDB (NoSQL), Subversion, Git, TFS, SharePoint, BizTalk
+
   - title: Experience
     layout: list
     content:
-      - layout: right
         title: Arrival Downhole Tools Ltd
         sub_title: Software Engineer
         caption: August 2012 - Present
-    content:
-      - layout: right
         title: Innovations, Capita Symonds Ltd
         sub_title: Technical Manager
         caption: November 2010 - July 2012
