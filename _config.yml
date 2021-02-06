@@ -1,8 +1,32 @@
+# Content configuration version
+version: 1
+
+# Personal Info
+name: Iain Angus
 title: 💻✒️📄🌟
-description: Iain Angus CV
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-minimal
 
-gems:
-  - jekyll-mentions
+# Dark mode
+darkmode: false
+
+# Social links
+linkedin_username: irangus
+
+# About section
+about_content:
+Software Engineer with over 10 years’ experience in software development and engineering, and a successful background in the design and management of complex software solutions
+
+exclude : [
+"Gemfile",
+"Gemfile.lock",
+"node_modules",
+"vendor/bundle/",
+"vendor/cache/",
+"vendor/gems/",
+"vendor/ruby/",
+"lib/",
+"scripts/",
+"docker-compose.yml",
+]
