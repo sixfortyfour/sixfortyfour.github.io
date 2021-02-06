@@ -44,6 +44,11 @@ content:
         title: Arrival Downhole Tools Ltd
         sub_title: Software Engineer
         caption: August 2012 - Present
+    content:
+      - layout: right
+        title: Innovations, Capita Symonds Ltd
+        sub_title: Technical Manager
+        caption: November 2010 - July 2012
 
 # Footer
 footer_show_references: true
