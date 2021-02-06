@@ -33,6 +33,7 @@ linkedin_username: irangus
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Software Engineer with over 10 years’ experience in software development and engineering, and a successful background in the design and management of complex software solutions.
+  
   Microsoft Certified Solution Developer with strong technical knowledge of desktop, mobile, and web applications, and the use of Microsoft technologies. Applies attention to detail when creating commercial software products, and solutions for clients in oil and gas industry. Skilled in the application of scrum methodologies to manage and lead small development teams. Committed to communicating with clients to capture requirements, architect and test suitable solutions, provide technical support, and to achieve successful delivery and handover.
 
 # Footer
