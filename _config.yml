@@ -40,7 +40,7 @@ content:
   - title: Core Skills
     layout: text
     content: 
-    C#, ASP/ASP.NET, WPF (XAML/MVVM), WCF, VB6, Microchip Embedded C, HTML, JavaScript, CSS, SQL Server, SQLite, LiteDB (NoSQL), Subversion, Git, TFS, SharePoint, BizTalk
+      C#, ASP/ASP.NET, WPF (XAML/MVVM), WCF, VB6, Microchip Embedded C, HTML, JavaScript, CSS, SQL Server, SQLite, LiteDB (NoSQL), Subversion, Git, TFS, SharePoint, BizTalk
 
 # Footer
 footer_show_references: true
