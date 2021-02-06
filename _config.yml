@@ -42,19 +42,6 @@ content:
     content: 
     C#, ASP/ASP.NET, WPF (XAML/MVVM), WCF, VB6, Microchip Embedded C, HTML, JavaScript, CSS, SQL Server, SQLite, LiteDB (NoSQL), Subversion, Git, TFS, SharePoint, BizTalk
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Arrival Downhole Tools Ltd
-        sub_title: Software Engineer
-        caption: August 2012 - Present
-    content:
-      - layout: left
-        title: Innovations, Capita Symonds Ltd
-        sub_title: Technical Manager
-        caption: November 2010 - July 2012
-
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
