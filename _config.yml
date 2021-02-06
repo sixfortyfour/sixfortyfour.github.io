@@ -16,7 +16,7 @@ linkedin_username: irangus
 
 # About section
 about_content:
-Software Engineer with over 10 years’ experience in software development and engineering, and a successful background in the design and management of complex software solutions
+  Software Engineer with over 10 years’ experience in software development and engineering, and a successful background in the design and management of complex software solutions
 
 exclude : [
 "Gemfile",
