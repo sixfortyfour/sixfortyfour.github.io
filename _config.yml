@@ -34,9 +34,17 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Software Engineer with over 10 years’ experience in software development and engineering, and a successful background in the design and management of complex software solutions.
   
-  Microsoft Certified Solution Developer with strong technical knowledge of desktop, mobile, and web applications, and the use of Microsoft technologies. Applies attention to detail when creating commercial software products, and solutions for clients in oil and gas industry. Skilled in the application of scrum methodologies to manage and lead small development teams. Committed to communicating with clients to capture requirements, architect and test suitable solutions, provide technical support, and to achieve successful delivery and handover.
+  Microsoft Certified Solution Developer with strong technical knowledge of desktop, mobile, and web applications, and the use of Microsoft technologies. Applies attention to detail when creating commercial software products, and solutions for clients. Skilled in the application of scrum methodologies to manage and lead small development teams. Committed to communicating with clients to capture requirements, architect and test suitable solutions, provide technical support, and to achieve successful delivery and handover.
 
 content:
+  - title: Current Employment
+    layout: list
+    content:
+      - title: Arrival Downhole Tools Ltd
+        sub_title: Software Engineer
+        caption: August 2012 - present
+        quote: >
+          Working alongside a team of 4, I liaise with other engineers throughout the UK and Canada, depending on project requirements, to provide a range commercial software products, technologies, and solutions for clients in the oil and gas industry across Canada, and the US.
   - title: Core Skills
     layout: text
     content: 
