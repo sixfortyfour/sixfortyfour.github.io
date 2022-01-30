@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Iain Angus
-title: Software Engineer
+title: Lead Software Engineer
 website: https://sixfortyfour.wordpress.com/
 website_title: Blog
 
@@ -40,6 +40,11 @@ content:
   - title: Career Summary
     layout: list
     content:
+      - title: Anord Mardix Ltd
+        sub_title: Lead Software Engineer
+        caption: May 2021 - present
+        quote: >
+          Responsible for a team of 4 software engineers working on complex web based projects with SQL Server data source. Development of native mobile iOS apps, with a design focus on universal apps that can be used on any Apple device.
       - title: Arrival Downhole Tools Ltd
         sub_title: Software Engineer
         caption: August 2012 - present
@@ -58,7 +63,7 @@ content:
   - title: Core Skills
     layout: text
     content: 
-      C#, ASP/ASP.NET, WPF (XAML/MVVM), WCF, VB6, Microchip Embedded C, HTML, JavaScript, CSS, SQL Server, SQLite, LiteDB (NoSQL), Subversion, Git, TFS, SharePoint, BizTalk
+      C#, ASP/ASP.NET, WPF (XAML/MVVM), WCF, VB6, Objective C, Microchip Embedded C, HTML, JavaScript, CSS, SQL Server, SQLite, LiteDB (NoSQL), Subversion, Git, TFS, SharePoint, BizTalk
 
 # Footer
 footer_show_references: true
