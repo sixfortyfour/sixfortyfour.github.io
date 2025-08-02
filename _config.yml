@@ -43,6 +43,8 @@ content:
       - title: Anord Mardix Ltd
         sub_title: Senior Software Developer
         caption: July 2023 - Present
+        quote: >
+          Spearheaded the migration of 1TB+ document data from SQL Server to Azure Blob Storage and redesigned document storage APIs, resulting in improved web application performance and modernized document storage architecture. Delivered technical expertise and strategic advice to business stakeholders while actively mentoring and developing junior developers.
       - title: Anord Mardix Ltd
         sub_title: Lead Software Engineer
         caption: May 2021 - March 2023
