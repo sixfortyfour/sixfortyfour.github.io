@@ -72,7 +72,7 @@ a {
 .main {
   max-width: 860px;
   margin: 0 auto;
-  padding: 72px 32px 96px;
+  padding: 48px 32px 96px;
 }
 
 /* Hero */
@@ -80,7 +80,7 @@ a {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-bottom: 56px;
+  margin-bottom: 40px;
 }
 
 .hero-photo {
@@ -131,7 +131,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   color: var(--subtle);
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 
 /* About */
@@ -258,27 +258,27 @@ a {
 /* Certs */
 .certs {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 10px;
 }
 
 .cert-card {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   padding: 14px 16px;
   border: 1px solid var(--border);
   border-radius: 8px;
 }
 
 .cert-badge-img {
-  width: 3rem;
-  height: 3rem;
+  width: 2.25rem;
+  height: 2.25rem;
   flex-shrink: 0;
 }
 
 .cert-name {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
   margin-bottom: 5px;
   line-height: 1.3;
