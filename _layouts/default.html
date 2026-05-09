@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.name }}{% if site.title %} — {{ site.title }}{% endif %}</title>
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  <nav class="nav">
+    <a href="/" class="nav-brand">[ia]</a>
+    <div class="nav-links">
+      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+      {% if site.linkedin_username %}<a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+      {% if site.website %}<a href="{{ site.website }}" target="_blank" rel="noopener">{{ site.website_title | default: 'Blog' }}</a>{% endif %}
+    </div>
+  </nav>
+
+  <main class="main">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+        {% if site.linkedin_username %}<a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+        {% if site.website %}<a href="{{ site.website }}" target="_blank" rel="noopener">{{ site.website_title | default: 'Blog' }}</a>{% endif %}
+      </div>
+      <span class="footer-copy">&copy; {{ 'now' | date: "%Y" }} {{ site.name }}</span>
+    </div>
+  </footer>
+</body>
+</html>
