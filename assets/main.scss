@@ -103,6 +103,41 @@ a {
   color: var(--muted);
 }
 
+/* Location card */
+.location-card {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  background: #faf4eb;
+  border: 1px solid #e0cdb0;
+  border-radius: 8px;
+  padding: 20px 28px;
+  margin-bottom: 48px;
+}
+
+.location-map {
+  flex-shrink: 0;
+  width: 200px;
+  opacity: 0.9;
+}
+
+.location-name {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, 'Courier New', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #c47a28;
+  margin-bottom: 10px;
+}
+
+.location-desc {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #a06828;
+}
+
 /* Sections */
 .sections {
   display: flex;
