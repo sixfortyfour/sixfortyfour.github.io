@@ -84,8 +84,8 @@ a {
 }
 
 .hero-photo {
-  width: 72px;
-  height: 72px;
+  width: 84px;
+  height: 84px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -107,7 +107,7 @@ a {
 .sections {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 48px;
 }
 
 .section {
@@ -258,7 +258,7 @@ a {
 /* Certs */
 .certs {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
