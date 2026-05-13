@@ -16,7 +16,7 @@
   <nav class="nav">
     <a href="/" class="nav-brand">[ia]</a>
     <div class="nav-links">
-      {% if site.website %}<a href="{{ site.website }}" target="_blank" rel="noopener">{{ site.website_title | default: "Blog" }}</a>{% endif %}
+      {% if site.website %}<a href="{{ site.website }}" target="_self" rel="noopener">{{ site.website_title | default: "Blog" }}</a>{% endif %}
       {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
       {% if site.linkedin_username %}<a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
     </div>
@@ -29,7 +29,7 @@
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-links">
-        {% if site.website %}<a href="{{ site.website }}" target="_blank" rel="noopener">{{ site.website_title | default: "Blog" }}</a>{% endif %}
+        {% if site.website %}<a href="{{ site.website }}" target="_self" rel="noopener">{{ site.website_title | default: "Blog" }}</a>{% endif %}
         {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
         {% if site.linkedin_username %}<a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
         </div>
