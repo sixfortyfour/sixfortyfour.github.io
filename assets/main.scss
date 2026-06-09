@@ -424,6 +424,10 @@ a {
     padding-top: 0;
   }
 
+  .certs {
+    grid-template-columns: 1fr;
+  }
+
   .footer {
     padding: 24px 20px;
   }
